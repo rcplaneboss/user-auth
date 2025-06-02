@@ -13,7 +13,7 @@ import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import { NotesProvider } from "./context/NotesContext";
 
-const clerkPubKey = "your-clerk-publishable-key";
+const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 function App() {
   return (
