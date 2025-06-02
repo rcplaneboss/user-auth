@@ -12,7 +12,7 @@ function App() {
 
                                       <SignedIn>
                                               <p>You're signed in!</p>
-                                                      <UserButton />
+                                                     {/*<UserButton />*/}
                                                             </SignedIn>
                                                                 </div>
                                                                   );
