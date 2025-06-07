@@ -21,10 +21,10 @@ function App() {
       <NotesProvider>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/sign-in" element={<SignIn />} />
-          <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/sign-in/*" element={<SignIn />} />
+          <Route path="/sign-up/*" element={<SignUp />} />
           <Route
-            path="/dashboard/*"
+            path="/dashboard"
             element={
               <SignedIn>
                 <Dashboard />
@@ -32,7 +32,7 @@ function App() {
             }
           />
           <Route
-            path="/dashboard/*"
+            path="/dashboard"
             element={
               <SignedOut>
                 <RedirectToSignIn />

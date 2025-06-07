@@ -5,7 +5,7 @@ const SignInPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50 px-4">
       <div className="max-w-md w-full">
-        <SignIn path="/sign-in" routing="path" />
+        <SignIn path="/sign-in" routing="path" redirectUrl="/dashboard"/>
       </div>
     </div>
   );

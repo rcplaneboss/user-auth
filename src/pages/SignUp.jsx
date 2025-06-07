@@ -5,7 +5,7 @@ const SignUpPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50 px-4">
       <div className="max-w-md w-full">
-        <SignUp path="/sign-up" routing="path" />
+        <SignUp path="/sign-up" routing="path" redirectUrl="/dashboard"/>
       </div>
     </div>
   );
