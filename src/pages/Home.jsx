@@ -11,16 +11,16 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
             to="/sign-up"
-            className="!rounded-button bg-white text-blue-600 px-6 py-3 font-medium text-lg shadow-lg hover:bg-gray-100 transition-colors cursor-pointer"
+            className="rounded-md bg-white text-blue-600 px-6 py-3 font-medium text-lg shadow-lg hover:bg-gray-100 transition-colors cursor-pointer"
           >
             Get Started
           </Link>
 
           <Link
             to="/sign-in"
-            className="!rounded-button bg-transparent border-2 border-white text-white px-6 py-3 font-medium text-lg hover:bg-white/10 transition-colors cursor-pointer"
+            className="rounded-md bg-transparent border-2 border-white text-white px-6 py-3 font-medium text-lg hover:bg-white/10 transition-colors cursor-pointer"
           >
-            Sign In
+              Sign In
           </Link>
         </div>
       </header>
@@ -76,6 +76,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
 
       {/* Footer */}
       <footer className="py-6 bg-gray-100 text-center text-gray-600">
